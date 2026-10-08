@@ -1,0 +1,8 @@
+{
+  "string": [
+    { "name": "module_desc", "value": "The One AI Brain mobile control center" },
+    { "name": "EntryAbility_desc", "value": "The One main ability" },
+    { "name": "EntryAbility_label", "value": "The One" }
+  ]
+}
+

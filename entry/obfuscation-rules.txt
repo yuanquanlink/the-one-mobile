@@ -1,0 +1,2 @@
+# V0.1 keeps obfuscation disabled. Add release rules here when distribution begins.
+

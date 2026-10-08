@@ -1,0 +1,10 @@
+{
+  "name": "entry",
+  "version": "0.1.0",
+  "description": "The One Mobile entry module",
+  "main": "",
+  "author": "The One",
+  "license": "UNLICENSED",
+  "dependencies": {}
+}
+

@@ -1,0 +1,78 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "The One Bridge Protocol",
+  "version": "1.0.0",
+  "contentType": "application/json",
+  "authentication": {
+    "header": "x-the-one-token",
+    "requiredWhen": "server bind address is not loopback",
+    "minimumLength": 24
+  },
+  "endpoints": [
+    { "method": "GET", "path": "/health", "response": "Health" },
+    { "method": "GET", "path": "/api/version", "response": "Version" },
+    { "method": "POST", "path": "/api/inbox", "request": "InboxUpsert", "response": "InboxResponse" },
+    { "method": "GET", "path": "/api/inbox", "response": "InboxList" },
+    { "method": "POST", "path": "/api/tasks", "request": "TaskUpsert", "response": "TaskResponse" },
+    { "method": "GET", "path": "/api/tasks", "response": "TaskList" },
+    { "method": "GET", "path": "/api/tasks/{id}", "response": "TaskResponse" },
+    { "method": "PATCH", "path": "/api/tasks/{id}", "request": "TaskPatch", "response": "TaskResponse" },
+    { "method": "POST", "path": "/api/search", "request": "SearchRequest", "response": "SearchResponse" }
+  ],
+  "$defs": {
+    "id": { "type": "string", "pattern": "^[A-Za-z0-9_-]{6,100}$" },
+    "syncStatus": { "enum": ["local", "pending", "synced", "failed"] },
+    "inboxType": { "enum": ["idea", "note", "material", "task"] },
+    "taskStatus": { "enum": ["pending", "sent", "done", "failed"] },
+    "InboxUpsert": {
+      "type": "object",
+      "required": ["id", "content", "type"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "content": { "type": "string", "minLength": 1, "maxLength": 10000 },
+        "type": { "$ref": "#/$defs/inboxType" },
+        "tags": { "type": "array", "maxItems": 20, "items": { "type": "string" } },
+        "upsert": { "type": "boolean", "default": false }
+      },
+      "additionalProperties": true
+    },
+    "TaskUpsert": {
+      "type": "object",
+      "required": ["id", "title"],
+      "properties": {
+        "id": { "$ref": "#/$defs/id" },
+        "title": { "type": "string", "minLength": 1, "maxLength": 240 },
+        "description": { "type": "string", "maxLength": 10000 },
+        "status": { "$ref": "#/$defs/taskStatus" },
+        "upsert": { "type": "boolean", "default": false }
+      },
+      "additionalProperties": true
+    },
+    "TaskPatch": {
+      "type": "object",
+      "properties": {
+        "title": { "type": "string", "minLength": 1, "maxLength": 240 },
+        "description": { "type": "string", "maxLength": 10000 },
+        "status": { "$ref": "#/$defs/taskStatus" },
+        "result": { "type": "string", "maxLength": 100000 }
+      },
+      "additionalProperties": false
+    },
+    "SearchRequest": {
+      "type": "object",
+      "required": ["query"],
+      "properties": { "query": { "type": "string", "minLength": 1, "maxLength": 500 } },
+      "additionalProperties": false
+    },
+    "SearchResponse": {
+      "type": "object",
+      "required": ["capability", "obsidianConnected", "query", "hits"],
+      "properties": {
+        "capability": { "const": "bridge_local_index" },
+        "obsidianConnected": { "const": false },
+        "query": { "type": "string" },
+        "hits": { "type": "array", "maxItems": 20 }
+      }
+    }
+  }
+}
