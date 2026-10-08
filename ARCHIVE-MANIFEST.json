@@ -1,0 +1,535 @@
+{
+  "id": 3,
+  "name": "The One Mobile 鸿蒙端",
+  "slug": "the-one-mobile",
+  "copies": [
+    {
+      "label": "copy-01",
+      "original_path": "C:\\Users\\The One\\Documents\\Codex\\2026-09-01\\the-one-mobile",
+      "archive_prefix": "",
+      "exists": true,
+      "files": 96,
+      "package": null
+    }
+  ],
+  "histories": [
+    "copy-01"
+  ],
+  "source_files": [
+    {
+      "path": ".gitignore",
+      "bytes": 179,
+      "sha256": "fc15baac7350b8c8e6e9c32c22857602681759dadf68c11fd821a34ea41d07f9"
+    },
+    {
+      "path": "BUILD_ARTIFACTS.md",
+      "bytes": 2313,
+      "sha256": "13f4bcab8b6ba087590fbcb3c7db284112a8532334ead8869da9b74f144ee5b6"
+    },
+    {
+      "path": "BUILD_ERRORS.md",
+      "bytes": 4282,
+      "sha256": "ab174089b2a11e455cd5ed810904286a2ba15541a3b46f9192f56ba1a8d1d14c"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 7211,
+      "sha256": "e125bd335f4d5c7c3ffc169f31d72b75ed7c9219d1bd354f0ccfb9a3d406d90a"
+    },
+    {
+      "path": "code-linter.json5",
+      "bytes": 331,
+      "sha256": "877147d20a0aee66091cda865abf31a65cc6bc5d79df303ed0e682cf5a005ef6"
+    },
+    {
+      "path": "DEVICE_DEPLOYMENT_REPORT.md",
+      "bytes": 5922,
+      "sha256": "c89984e57f44ba9f42b5fbe971d4ac46daf19aee4023d197a4c264c81f043ced"
+    },
+    {
+      "path": "HANDOFF.md",
+      "bytes": 9672,
+      "sha256": "bbf34c31fdf6f19a05f4f3bc04e8a2c0eb8b3cfd6be7405e6393c6d1b1518ab7"
+    },
+    {
+      "path": "hvigorfile.ts",
+      "bytes": 108,
+      "sha256": "f6f7d36f5a9f9e2adbce2eac67faca0a022e0b5b6c1501bd37aadfedf19e72ab"
+    },
+    {
+      "path": "oh-package.json5",
+      "bytes": 240,
+      "sha256": "12e46f484bd41d9f058b924bfc9baf9b5a03dcc968b304f52fe72ce6ce67a890"
+    },
+    {
+      "path": "README.original.md",
+      "bytes": 6203,
+      "sha256": "6a69e633635bb1f55a627b3d737db54b264de0360768c95c91ddaa25b3e9c986"
+    },
+    {
+      "path": "START_HERE_TOMORROW.md",
+      "bytes": 396,
+      "sha256": "664a926dd0dd34872f49155e6376779122fd6263c5effd056e90342fdbf77de6"
+    },
+    {
+      "path": "STATUS.md",
+      "bytes": 5304,
+      "sha256": "779c71f2028673e9b0fffc572ed092465ded6b53788287f22269cbbeb28619a8"
+    },
+    {
+      "path": "THE_ONE_FINAL_ACCEPTANCE.md",
+      "bytes": 5387,
+      "sha256": "d82a9b5961c86e0ee2af30c35adb5eef2c8e53e8df5142f21bdaeb08f81fe7e0"
+    },
+    {
+      "path": "THE_ONE_MOBILE_ROUND2_RESULT.md",
+      "bytes": 5243,
+      "sha256": "5be6dd9fb3b1d1f61f5d7d98e85878fe555d3dd5bd19adc2dbee819c0fd7ec05"
+    },
+    {
+      "path": "THE_ONE_OVERNIGHT_FINAL_REPORT.md",
+      "bytes": 7369,
+      "sha256": "34af6f69ac1188c98ea94e6d58992943e611e20df672f949c129a7fcce8ae6d4"
+    },
+    {
+      "path": "THE_ONE_V1_RELEASE_REPORT.md",
+      "bytes": 1909,
+      "sha256": "82f713efb0b09193ddad0d3bbab71064f603a0ea4ad4ebc0a934eec674d886ec"
+    },
+    {
+      "path": "TRUE_DEVICE_UI_REPORT.md",
+      "bytes": 1460,
+      "sha256": "bc33cf58f5a8d88cdc1b2bfefb3d69be30321091fbbad92628d6255f87675fd3"
+    },
+    {
+      "path": "USER_ACTION_REQUIRED.md",
+      "bytes": 656,
+      "sha256": "d5c25287de7b8dce34f00f04fbadbda4fc053bb1f191e631197f239b93a84e58"
+    },
+    {
+      "path": "AppScope/app.json5",
+      "bytes": 203,
+      "sha256": "7f0eb296ce697da15aa7ce85d7bd49006ceb516a06265dff2e83f02f3e2f2055"
+    },
+    {
+      "path": "AppScope/resources/base/element/string.json",
+      "bytes": 86,
+      "sha256": "c0a02abb79ac7d0472d647de80164eefd7d2bc024e6dca3e5780faf40222017c"
+    },
+    {
+      "path": "AppScope/resources/base/media/app_icon.svg",
+      "bytes": 381,
+      "sha256": "ebdeb09357b7a9531e93ceafaf23981fbeef5a63339d0d065f096a8921da2e44"
+    },
+    {
+      "path": "bridge/.env.example",
+      "bytes": 489,
+      "sha256": "40bf71cdc3466b151d35902f13fe595eefa2b1c3c8559b5796f291359918961f"
+    },
+    {
+      "path": "bridge/API.md",
+      "bytes": 1400,
+      "sha256": "ab03e6785243eeede14385f8baa319ba4b89dade6129b12eb1fdec0ec409d474"
+    },
+    {
+      "path": "bridge/package-lock.json",
+      "bytes": 1502,
+      "sha256": "013d351c3182a3f9c4267ebe52659c8ce42810cdc0ff0908b579822cf6628c11"
+    },
+    {
+      "path": "bridge/package.json",
+      "bytes": 450,
+      "sha256": "43c2f511f5cbfafde3f2c9308a6b9d6f68637918df6b18d77035886894d4b794"
+    },
+    {
+      "path": "bridge/protocol.json",
+      "bytes": 3237,
+      "sha256": "43ed42983a863870b24f6dc9a01024aac6a1845b7f7cb5ff62072544ec491bb7"
+    },
+    {
+      "path": "bridge/tsconfig.json",
+      "bytes": 451,
+      "sha256": "d899adde9a1a967a5898779e4dba3853f5c89c9bcac35b05e85511e2ccc9f23f"
+    },
+    {
+      "path": "bridge/data/state.json",
+      "bytes": 55,
+      "sha256": "a9bff964d37affdf8b3d3d2103b06e33e287485bde6b25bc77723d8078f3bb9f"
+    },
+    {
+      "path": "bridge/src/config.ts",
+      "bytes": 1933,
+      "sha256": "a7d8aa4358c695f95b2ee7ea3c5554019ed863754638ebb3a0c320290dbf01f5"
+    },
+    {
+      "path": "bridge/src/index.ts",
+      "bytes": 584,
+      "sha256": "b782d729a05336974fd7b4bbab5f00054a85bd5203900bc73c4e5f7efc063f6e"
+    },
+    {
+      "path": "bridge/src/server.ts",
+      "bytes": 10961,
+      "sha256": "f57bdb6e851197108eea1aa0fc98e0a2c02fadeb5b0a7ee067e733722a1b3341"
+    },
+    {
+      "path": "bridge/src/store.ts",
+      "bytes": 3150,
+      "sha256": "c21b0286041e6ba94f428d033c39fe194c47bfe4e936c4b6b3e923d740013566"
+    },
+    {
+      "path": "bridge/src/types.ts",
+      "bytes": 1004,
+      "sha256": "da574b09d61bdb73ee6aa325aef26a8697ab2831a77cd11c6363de729a9e70f7"
+    },
+    {
+      "path": "bridge/src/validation.ts",
+      "bytes": 3391,
+      "sha256": "c96bbff1f69aff105822e87ded917750828c6c1ae9dbf372c5fbf74798c99fe3"
+    },
+    {
+      "path": "bridge/src/adapters/codex.ts",
+      "bytes": 658,
+      "sha256": "de6987cf4e5bddcb2a55fd25992c4255e9d4e44c218aa7ad4398ae16a5ce73f8"
+    },
+    {
+      "path": "bridge/src/adapters/knowledge.ts",
+      "bytes": 2725,
+      "sha256": "744155559a8e0f949b4102ffb72d2267cc39662a9a24f86e7d6e686ce240ac43"
+    },
+    {
+      "path": "bridge/test/bridge.test.ts",
+      "bytes": 8108,
+      "sha256": "8e728bf3ec51957300c583b1a179043cc2974e43c9baa1b981df61ca7dedc8db"
+    },
+    {
+      "path": "entry/build-profile.json5",
+      "bytes": 406,
+      "sha256": "1cf8b79e9ae09ccd612f2d48e66fb26debf19e1ae53ab705752fd9f4620d06ca"
+    },
+    {
+      "path": "entry/consumer-rules.txt",
+      "bytes": 59,
+      "sha256": "4a59fe30112649cbef1af850b7c3c10a0307c44d2ef08bae5b64a07e50b7ca9d"
+    },
+    {
+      "path": "entry/hvigorfile.ts",
+      "bytes": 108,
+      "sha256": "1ec3e41cb3445ef2f304a9d923c4d65df502478c596a2ef7425aa28ce422d1de"
+    },
+    {
+      "path": "entry/obfuscation-rules.txt",
+      "bytes": 85,
+      "sha256": "00906ac0f5b56615b1a3d4b544341ee32daf31f1c12be74e41df0cccd53961ea"
+    },
+    {
+      "path": "entry/oh-package.json5",
+      "bytes": 179,
+      "sha256": "5f7c1b062bb4f17f8c40fa43c7144e78581a0d5d9c33494fc2778d05937269ef"
+    },
+    {
+      "path": "entry/skills/the-one-local-control/SKILL.md",
+      "bytes": 3157,
+      "sha256": "b7959c946e272f9805cba000ebbfba6be80e19f04346569eb26308d8dffb4a0c"
+    },
+    {
+      "path": "entry/skills/the-one-local-control/scripts/TheOneSkill.ets",
+      "bytes": 3621,
+      "sha256": "f2205ad7efe58dcd81aebf1fe9e7b41a6692e68f3da267aa66cc78b28d7c31db"
+    },
+    {
+      "path": "entry/src/main/module.json5",
+      "bytes": 1152,
+      "sha256": "7a136fef115876f4fb35c3c041a1693539fa06d18c1c3a8554bf571b9934543b"
+    },
+    {
+      "path": "entry/src/main/ets/components/ControlCard.ets",
+      "bytes": 1281,
+      "sha256": "69d007d940caa4f120d06996695d8fe5e2cfe8ce08608dc27f2b1b2c29aa8b8b"
+    },
+    {
+      "path": "entry/src/main/ets/components/EmptyState.ets",
+      "bytes": 801,
+      "sha256": "78ac49dbe1b36606b73ca9880e170d638d9dd788a11801515cc36b3936e47625"
+    },
+    {
+      "path": "entry/src/main/ets/components/SectionHeader.ets",
+      "bytes": 458,
+      "sha256": "693840ea067bb2d67abb6cda0410eb32415e8c3970c2684b8ad0e0f4e9874db3"
+    },
+    {
+      "path": "entry/src/main/ets/components/StatusBadge.ets",
+      "bytes": 447,
+      "sha256": "00b6728d74c9a50bdc245e94e3e8cbf6b3cfe66bfe1f7047019fdb657961153d"
+    },
+    {
+      "path": "entry/src/main/ets/components/TypeBadge.ets",
+      "bytes": 496,
+      "sha256": "7add1979021fb13c91121cb20a6a63bd258002ab9df88e29b7ab8adfe5d004fb"
+    },
+    {
+      "path": "entry/src/main/ets/entryability/EntryAbility.ets",
+      "bytes": 1133,
+      "sha256": "3394357fb00f4072289d65515b8015c0d1992b71d9754fce7a8fa9e0c8aaf7dd"
+    },
+    {
+      "path": "entry/src/main/ets/model/BridgeModels.ets",
+      "bytes": 1770,
+      "sha256": "be57567138fe750d25c3e05f99c8eef269aeb698bf6ba26901a5aa04cb88450b"
+    },
+    {
+      "path": "entry/src/main/ets/model/BridgeSettings.ets",
+      "bytes": 1111,
+      "sha256": "d13d1a15de3a6ea1a3d79ea4497cb3a308da8d5a9c0b391c0a5352262f2e64b3"
+    },
+    {
+      "path": "entry/src/main/ets/model/CodexTask.ets",
+      "bytes": 901,
+      "sha256": "3dafc7685214dc90ec85ce2c5e610a64365d595754fdd2b3796b7d911d161f6a"
+    },
+    {
+      "path": "entry/src/main/ets/model/InboxItem.ets",
+      "bytes": 935,
+      "sha256": "d717caca40fc2da2977de2bf72d0d4f0e632071f25db8f5b6ad00c27974e1fc3"
+    },
+    {
+      "path": "entry/src/main/ets/navigation/Routes.ets",
+      "bytes": 563,
+      "sha256": "89ecedacd8acf29135b8ad575a42b59491a909837a4403b8d84ea420300d02bc"
+    },
+    {
+      "path": "entry/src/main/ets/pages/BrainPage.ets",
+      "bytes": 4785,
+      "sha256": "43c0a291b5d11733a4160dc6a84ccf6d691f4e3d19f48c32060fed64406d98a9"
+    },
+    {
+      "path": "entry/src/main/ets/pages/CapturePage.ets",
+      "bytes": 5284,
+      "sha256": "0f3a039ad104bcd063f93f67334a70de26e531d2ae631eecdd9ea2b2d0d4bab0"
+    },
+    {
+      "path": "entry/src/main/ets/pages/CodexTaskCreatePage.ets",
+      "bytes": 3953,
+      "sha256": "a72b30a901825b56a150f2741840e02996b6d38129a266eb1e0b0f9d08016c50"
+    },
+    {
+      "path": "entry/src/main/ets/pages/CodexTaskDetailPage.ets",
+      "bytes": 6453,
+      "sha256": "b68c56ade139c1ee144fda546087f420224d9086f6e475acbf022c4c4d658fc5"
+    },
+    {
+      "path": "entry/src/main/ets/pages/CodexTasksPage.ets",
+      "bytes": 7890,
+      "sha256": "8d3477c92f5268d2e57cb63bb9d0e891962a1a820abb97fe105787fc593f5a53"
+    },
+    {
+      "path": "entry/src/main/ets/pages/DashboardPage.ets",
+      "bytes": 5751,
+      "sha256": "1844522e366c8717d000dca9f7fca183f43539a7271bc646cbb22f92f2eaf7b9"
+    },
+    {
+      "path": "entry/src/main/ets/pages/InboxDetailPage.ets",
+      "bytes": 8706,
+      "sha256": "449470797b9081e1b6ceccd49c7b166f7a66393512235ad5eea89890ee1c2372"
+    },
+    {
+      "path": "entry/src/main/ets/pages/InboxPage.ets",
+      "bytes": 5792,
+      "sha256": "f5b3a7d7d02d1bf125f19c4a7dfa10a2de420b2bc8d0f4a956321c63010af28c"
+    },
+    {
+      "path": "entry/src/main/ets/pages/Index.ets",
+      "bytes": 319,
+      "sha256": "54e6cd69bf246d1336a7216f8d8c8535796d46578e8bddf3d0f3e645944521a4"
+    },
+    {
+      "path": "entry/src/main/ets/pages/SettingsPage.ets",
+      "bytes": 8083,
+      "sha256": "6b2239c2c860fd6bd196ad1277c0614d021e27c84ba676ba5d0a872840e52fdf"
+    },
+    {
+      "path": "entry/src/main/ets/repository/InboxRepository.ets",
+      "bytes": 4943,
+      "sha256": "4bd38bbbf9ccd28b466e1fdbf8d28f59943eb6ef582fdf4bedbde3c21aef0a2d"
+    },
+    {
+      "path": "entry/src/main/ets/repository/SettingsRepository.ets",
+      "bytes": 1486,
+      "sha256": "1984cecace5f01007001abcd583aa2b18bc2542bf030b457b14bed94bf3ddd39"
+    },
+    {
+      "path": "entry/src/main/ets/repository/TaskRepository.ets",
+      "bytes": 5224,
+      "sha256": "8e4ae9c6556478f6dcd896c1799692e25f00d063c5387f83f5155bf11ad08e99"
+    },
+    {
+      "path": "entry/src/main/ets/services/AppServiceContainer.ets",
+      "bytes": 1925,
+      "sha256": "6c32967b5bfa9391e5d7691793af9fb066e825313b642136c2b68e9268cde567"
+    },
+    {
+      "path": "entry/src/main/ets/services/BridgeClient.ets",
+      "bytes": 4988,
+      "sha256": "0014333db38efbaf79ad928861f6407807aa92b80f44d6756bcd3bcfd89e34d3"
+    },
+    {
+      "path": "entry/src/main/ets/services/CaptureService.ets",
+      "bytes": 1492,
+      "sha256": "1508f24d6a7e754a3f441d1d73f1893d1818628846b64a90d37b13d6aafb6c1f"
+    },
+    {
+      "path": "entry/src/main/ets/services/SyncService.ets",
+      "bytes": 4225,
+      "sha256": "0dc715575aaffefd1b351927cdcb3ff2ad380c7a51ff6b3259c5ba15b4445049"
+    },
+    {
+      "path": "entry/src/main/ets/services/TaskService.ets",
+      "bytes": 1526,
+      "sha256": "e30c829f119296d470e7b70e8b46fcae184679f57ac9c80bf1526d1db51fe6f7"
+    },
+    {
+      "path": "entry/src/main/ets/storage/AppPreferences.ets",
+      "bytes": 1631,
+      "sha256": "2312e8bb819dea408d7ccea1673b1f2f3f146fd7dcbd98874a214b2335c0c851"
+    },
+    {
+      "path": "entry/src/main/ets/storage/StorageMigration.ets",
+      "bytes": 2555,
+      "sha256": "dbc5a52827926e6b067958b996b5f3e3d3fde50819900a9bcaafc16cb1dbab00"
+    },
+    {
+      "path": "entry/src/main/ets/ui/Theme.ets",
+      "bytes": 755,
+      "sha256": "bb193cc534942d1db1ec334b15a5b20b8cba77729bea1a8daa0b03d1f0627f77"
+    },
+    {
+      "path": "entry/src/main/ets/utils/DateTime.ets",
+      "bytes": 583,
+      "sha256": "3cf5470491e9964871685e2f695accea6901c1d7cd7c7c9b80ecc7bc23f822f9"
+    },
+    {
+      "path": "entry/src/main/ets/utils/DisplayText.ets",
+      "bytes": 1154,
+      "sha256": "9881c3be0e9025daa3e7c87f05967646f6e1712b69573c79cd3804bfc3406081"
+    },
+    {
+      "path": "entry/src/main/ets/utils/IdGenerator.ets",
+      "bytes": 289,
+      "sha256": "2ec424b6c73b5393d61c8976c4c85911ec2d282c14c6b64413a3b08820c3fff8"
+    },
+    {
+      "path": "entry/src/main/resources/base/element/color.json",
+      "bytes": 84,
+      "sha256": "fec569b9815d865f614d027bd3fc44a8f7b52733e1781f651934ab34884c7ddc"
+    },
+    {
+      "path": "entry/src/main/resources/base/element/string.json",
+      "bytes": 232,
+      "sha256": "96bc8ebf7bc5299bb0aad3f97e21bdee33726a7a4bd601028fcbe30023923dc2"
+    },
+    {
+      "path": "entry/src/main/resources/base/media/app_icon.svg",
+      "bytes": 380,
+      "sha256": "16dd192c7d38ec9a7727c6ee7afcbee9b279662c43ada93bbe5ae7b7499a7092"
+    },
+    {
+      "path": "entry/src/main/resources/base/profile/main_pages.json",
+      "bytes": 30,
+      "sha256": "5274c16fda1810605d45dc1fa60913cb4e84c531938d72ec6814cf5d137e403b"
+    },
+    {
+      "path": "entry/src/main/resources/dark/element/color.json",
+      "bytes": 84,
+      "sha256": "fec569b9815d865f614d027bd3fc44a8f7b52733e1781f651934ab34884c7ddc"
+    },
+    {
+      "path": "hvigor/hvigor-config.json5",
+      "bytes": 204,
+      "sha256": "988c8f626826b02c228f4aabd7eda031fd5da8cde8074de399e6edc2b66221e7"
+    },
+    {
+      "path": "tests/mobile-contract.test.mjs",
+      "bytes": 5986,
+      "sha256": "76c222f0018e9b122f55ea018af6209f1b5e7f8219d54aed469721009131af8e"
+    },
+    {
+      "path": "tools/build.ps1",
+      "bytes": 3431,
+      "sha256": "4d6dfc7933116fc0babb403c0af35563fdfd1d0f77ee5e09a002b296175eb854"
+    },
+    {
+      "path": "tools/check-bridge.ps1",
+      "bytes": 622,
+      "sha256": "a8bf50b5105a228dc5b047189fe4545ffd9812dc064c955e9fee9099fdf1455b"
+    },
+    {
+      "path": "tools/dev.ps1",
+      "bytes": 193,
+      "sha256": "e870696c74671cb59e3c61a6d3401d37c305af9c34810f9be92d09f864c292b9"
+    },
+    {
+      "path": "tools/deveco-auth-login.ps1",
+      "bytes": 1063,
+      "sha256": "3e7388079de6d7d769f4275d30e96a9d810d8942932d805d9df27c503f919c8f"
+    },
+    {
+      "path": "tools/lint.ps1",
+      "bytes": 1066,
+      "sha256": "9dc7fd0a778a358b2a958d8f1d1028fa4d48dcc436f0ac5fb27d6bd6808e243b"
+    },
+    {
+      "path": "tools/preflight.ps1",
+      "bytes": 12040,
+      "sha256": "b84359b548cb62e065ab8a0b320615ce091a85f33745b4d7453f5bac3497a920"
+    },
+    {
+      "path": "tools/start-bridge.ps1",
+      "bytes": 1062,
+      "sha256": "f8ff71e6099e55a794cc1148e2c76371ee7a685abb43cc7a6a0b9ed72c4307fd"
+    },
+    {
+      "path": "tools/test.ps1",
+      "bytes": 1035,
+      "sha256": "09f45aac147917ceed71f264e51816cf12172960e340ec1d81ec49aff42ecf17"
+    },
+    {
+      "path": "tools/validate-project.mjs",
+      "bytes": 8757,
+      "sha256": "185f234d7d2dc305ba83804e415bae875c64f6827eab0a1b196f2710a9cef316"
+    }
+  ],
+  "local_count": 170,
+  "excluded_dirs": [
+    {
+      "copy": "copy-01",
+      "path": ".git",
+      "reason": "dependencies, caches or tool state"
+    },
+    {
+      "copy": "copy-01",
+      "path": ".hvigor",
+      "reason": "dependencies, caches or tool state"
+    },
+    {
+      "copy": "copy-01",
+      "path": ".tmp",
+      "reason": "dependencies, caches or tool state"
+    },
+    {
+      "copy": "copy-01",
+      "path": "oh_modules",
+      "reason": "dependencies, caches or tool state"
+    },
+    {
+      "copy": "copy-01",
+      "path": "bridge\\node_modules",
+      "reason": "dependencies, caches or tool state"
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "note": "",
+  "runtime_verified": false,
+  "local_unique_objects": 165,
+  "source_complete_for_selected_policy": true,
+  "code_files": 55
+}

@@ -1,0 +1,10 @@
+{
+  "modelVersion": "26.0.0",
+  "name": "the-one-mobile",
+  "version": "0.1.0",
+  "description": "The One AI Brain native HarmonyOS mobile client",
+  "dependencies": {},
+  "devDependencies": {
+    "@ohos/hvigor-ohos-plugin": "6.26.1"
+  }
+}
